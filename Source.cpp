@@ -60,8 +60,6 @@ int main(int argc, char* argv) {
 	
 	// data input  (example n=7 towns)
 	vector<int> popV{ 14, 42, 13, 33, 30, 8, 24 }; // 1st town pop = 14 , 2nd town pop = 22 ....
-
-	int maxPeople = 0;  // maximum number of people that we can cover by placing towers in towns
 	
 
 	pair<int, vector<int> > res = solve(popV);
